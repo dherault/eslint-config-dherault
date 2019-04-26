@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-dherault",
+  "version": "1.0.0",
+  "description": "A modern eslint config",
+  "main": "index.js",
+  "author": "David Hérault <dherault@gmail.com> (https://github.com/dherault)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dherault/eslint-config-dherault.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "bugs": {
+    "url": "https://github.com/dherault/eslint-config-dherault/issues"
+  },
+  "homepage": "https://github.com/dherault/eslint-config-dherault#readme",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}
