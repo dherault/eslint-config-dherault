@@ -1,6 +1,10 @@
 module.exports = {
   extends: 'airbnb',
   parser: 'babel-eslint',
+  env: {
+    browser: true,
+    node: true,
+  },
   rules: {
     'comma-dangle': [
       'error',
@@ -65,9 +69,5 @@ module.exports = {
     'react/prefer-stateless-function': 'off',
     'react/prop-types': 'off',
     'react/sort-comp': 'off',
-  },
-  env: {
-    browser: true,
-    node: true,
   },
 }
