@@ -10,7 +10,8 @@
     "url": "git+https://github.com/dherault/eslint-config-dherault.git"
   },
   "keywords": [
-    "eslint"
+    "eslint",
+    "config"
   ],
   "bugs": {
     "url": "https://github.com/dherault/eslint-config-dherault/issues"
