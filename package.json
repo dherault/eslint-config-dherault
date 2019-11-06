@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dherault",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A modern eslint config",
   "main": "index.js",
   "author": "David Hérault <dherault@gmail.com> (https://github.com/dherault)",
@@ -21,13 +21,13 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "babel-eslint": "^10.0.2",
-    "eslint-config-airbnb": "^17.1.1",
-    "eslint-plugin-import": "^2.18.0",
+    "babel-eslint": "^10.0.3",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.2"
+    "eslint-plugin-react": "^7.16.0"
   },
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^6.6.0"
   }
 }
