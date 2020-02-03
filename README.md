@@ -8,7 +8,7 @@ A modern eslint config.
 
 ## Usage
 
-`.eslintrc`:
+`.eslintrc.json`:
 ```json
 {
   "extends": "dherault"
