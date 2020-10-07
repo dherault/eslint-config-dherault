@@ -1,8 +1,12 @@
 module.exports = {
   extends: 'airbnb',
+  plugins: [
+    'react-hooks',
+  ],
   env: {
     browser: true,
     node: true,
+    es2021: true,
   },
   rules: {
     'comma-dangle': [
