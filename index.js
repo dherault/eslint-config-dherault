@@ -63,6 +63,13 @@ module.exports = {
     semi: ['error', 'never'],
     'semi-style': ['error', 'first'],
     'space-infix-ops': 'error',
+    'sort-imports': ['error', {
+      ignoreCase: false,
+      ignoreDeclarationSort: true,
+      ignoreMemberSort: false,
+      memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
+      allowSeparatedGroups: true,
+    }],
     'import/no-cycle': 'off',
     'import/no-dynamic-require': 'off',
     'import/order': ['error', { 'newlines-between': 'always-and-inside-groups' }],
