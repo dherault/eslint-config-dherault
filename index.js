@@ -65,7 +65,7 @@ module.exports = {
     'space-infix-ops': 'error',
     'import/no-cycle': 'off',
     'import/no-dynamic-require': 'off',
-    'import/order': ['error', { 'newlines-between': 'always', alphabetize: { order: 'asc', caseInsensitive: true } }],
+    'import/order': ['error', { 'newlines-between': 'always-and-inside-groups', alphabetize: { order: 'asc', caseInsensitive: true } }],
     'jsx-a11y/click-events-have-key-events': 'off',
     'jsx-a11y/no-noninteractive-element-interactions': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
