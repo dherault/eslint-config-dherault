@@ -62,7 +62,7 @@ module.exports = {
     radix: 'off',
     semi: ['error', 'never'],
     'semi-style': ['error', 'first'],
-    'sort-imports': ['error', { allowSeparatedGroups: true }],
+    'sort-imports': ['error', { allowSeparatedGroups: true, ignoreCase: true }],
     'space-infix-ops': 'error',
     'import/no-cycle': 'off',
     'import/no-dynamic-require': 'off',
