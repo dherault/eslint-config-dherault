@@ -62,6 +62,7 @@ module.exports = {
     radix: 'off',
     semi: ['error', 'never'],
     'semi-style': ['error', 'first'],
+    'sort-imports': ['error', { allowSeparatedGroups: true }],
     'space-infix-ops': 'error',
     'import/no-cycle': 'off',
     'import/no-dynamic-require': 'off',
@@ -71,10 +72,12 @@ module.exports = {
     'react/jsx-filename-extension': 'off',
     'react/jsx-one-expression-per-line': 'off',
     'react/jsx-props-no-spreading': 'off',
+    'react/jsx-uses-react': 'off', // React 17+
     'react/no-array-index-key': 'off',
     'react/no-danger': 'off',
     'react/prefer-stateless-function': 'off',
     'react/prop-types': 'off',
+    'react/react-in-jsx-scope': 'off', // React 17+
     'react/sort-comp': 'off',
   },
 }
