@@ -49,6 +49,7 @@ module.exports = {
     'no-trailing-spaces': 'off',
     'no-underscore-dangle': 'off',
     'no-unreachable': 'warn',
+    'no-unused-vars': 'warn',
     'no-use-before-define': 'off',
     'object-curly-newline': 'off',
     'operator-linebreak': 'off',
@@ -73,6 +74,8 @@ module.exports = {
     'import/no-cycle': 'off',
     'import/no-dynamic-require': 'off',
     'import/order': ['error', { 'newlines-between': 'always-and-inside-groups' }],
+    'jsx-a11y/alt-text': 'off',
+    'jsx-a11y/anchor-is-valid': 'off',
     'jsx-a11y/click-events-have-key-events': 'off',
     'jsx-a11y/no-noninteractive-element-interactions': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
@@ -82,6 +85,7 @@ module.exports = {
     'react/jsx-uses-react': 'off', // React 17+
     'react/no-array-index-key': 'off',
     'react/no-danger': 'off',
+    'react/no-unescaped-entities': 'off',
     'react/prefer-stateless-function': 'off',
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off', // React 17+
