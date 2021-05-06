@@ -82,7 +82,7 @@ module.exports = {
     'jsx-a11y/no-noninteractive-element-interactions': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
     'react/jsx-filename-extension': 'off',
-    'react/jsx-max-props-per-line': 'error',
+    'react/jsx-max-props-per-line': ['error', { maximum: 1, when: 'always' }],
     'react/jsx-one-expression-per-line': 'off',
     'react/jsx-props-no-spreading': 'off',
     'react/jsx-uses-react': 'off', // React 17+
