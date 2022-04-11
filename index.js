@@ -86,6 +86,7 @@ module.exports = {
     'react/jsx-one-expression-per-line': 'off',
     'react/jsx-props-no-spreading': 'off',
     'react/jsx-uses-react': 'off', // React 17+
+    'react/jsx-no-bind': 'off',
     'react/no-array-index-key': 'off',
     'react/no-danger': 'off',
     'react/no-unescaped-entities': 'off',
