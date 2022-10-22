@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-dherault",
   "version": "1.7.5",
-  "description": "A modern eslint config",
+  "description": "A modern Eslint config",
   "main": "index.js",
   "author": "David Hérault <dherault@gmail.com> (https://github.com/dherault)",
   "license": "MIT",
