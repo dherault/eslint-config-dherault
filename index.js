@@ -5,6 +5,9 @@ module.exports = {
     node: true,
   },
   rules: {
+    'arrow-parens': ['error', 'as-needed'],
+    'brace-style': ['error', 'stroustrup'],
+    'class-methods-use-this': 'off',
     'comma-dangle': [
       'error',
       {
@@ -15,9 +18,6 @@ module.exports = {
         functions: 'ignore',
       },
     ],
-    'arrow-parens': ['error', 'as-needed'],
-    'brace-style': ['error', 'stroustrup'],
-    'class-methods-use-this': 'off',
     'consistent-return': 'off',
     'default-case': 'off',
     'function-paren-newline': 'off',
@@ -83,10 +83,10 @@ module.exports = {
     'jsx-a11y/no-static-element-interactions': 'off',
     'react/jsx-filename-extension': 'off',
     'react/jsx-max-props-per-line': ['error', { maximum: 1, when: 'always' }],
-    'react/jsx-one-expression-per-line': 'off',
+    'react/jsx-no-bind': 'off',
+    'react/jsx-one-expression-per-line': 'error',
     'react/jsx-props-no-spreading': 'off',
     'react/jsx-uses-react': 'off', // React 17+
-    'react/jsx-no-bind': 'off',
     'react/no-array-index-key': 'off',
     'react/no-danger': 'off',
     'react/no-unescaped-entities': 'off',
