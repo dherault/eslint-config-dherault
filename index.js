@@ -60,6 +60,8 @@ module.exports = {
       { blankLine: 'always', prev: '*', next: 'return' },
       { blankLine: 'always', prev: 'import', next: '*' },
       { blankLine: 'any', prev: 'import', next: 'import' },
+      { blankLine: 'always', prev: '*', next: 'export' },
+      { blankLine: 'always', prev: '*', next: 'function' },
     ],
     radix: 'off',
     semi: ['error', 'never'],
