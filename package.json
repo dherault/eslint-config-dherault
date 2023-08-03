@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dherault",
-  "version": "1.11.1",
+  "version": "1.11.2",
   "description": "A modern Eslint config",
   "main": "index.js",
   "author": "David Hérault <dherault@gmail.com> (https://github.com/dherault)",
