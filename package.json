@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dherault",
-  "version": "1.11.6",
+  "version": "1.11.7",
   "description": "A modern Eslint config",
   "main": "index.js",
   "author": "David Hérault <dherault@gmail.com> (https://github.com/dherault)",
@@ -28,6 +28,6 @@
     "eslint-plugin-react-hooks": "^4.6.2"
   },
   "peerDependencies": {
-    "eslint": "^8.7.0"
+    "eslint": "^8.0.0"
   }
 }
