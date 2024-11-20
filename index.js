@@ -90,6 +90,7 @@ module.exports = {
     'react/destructuring-assignment': 'off',
     'react/forbid-foreign-prop-types': 'off',
     'react/forbid-prop-types': 'off',
+    'react/jsx-curly-spacing': ['error', { when: 'never', children: true }],
     'react/jsx-filename-extension': 'off',
     'react/jsx-max-props-per-line': ['error', { maximum: 1, when: 'always' }],
     'react/jsx-newline': ['error', { prevent: true }],
