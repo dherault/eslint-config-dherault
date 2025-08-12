@@ -1,5 +1,6 @@
 module.exports = {
   extends: ['airbnb', 'airbnb/hooks'],
+  plugins: ['no-empty-first-line'],
   env: {
     browser: true,
     node: true,
@@ -111,5 +112,6 @@ module.exports = {
     'react/react-in-jsx-scope': 'off', // React 17+
     'react/require-default-props': 'off',
     'react/sort-comp': 'off',
+    'no-empty-first-line/validate': 'error',
   },
 }
