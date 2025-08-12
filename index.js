@@ -113,6 +113,6 @@ module.exports = {
     'react/react-in-jsx-scope': 'off', // React 17+
     'react/require-default-props': 'off',
     'react/sort-comp': 'off',
-    'no-empty-first-line/validate': 'error',
+    'no-empty-first-line-dherault/no-empty-first-line': 'error',
   },
 }
