@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['airbnb', 'airbnb/hooks'],
-  plugins: ['no-empty-first-line'],
+  plugins: ['no-empty-first-line-dherault'],
   env: {
     browser: true,
     node: true,
